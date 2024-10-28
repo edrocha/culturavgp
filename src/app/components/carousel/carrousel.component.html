@@ -1,0 +1,15 @@
+
+<div class="slideshow-container" *ngFor="let item of content">
+
+  <div class="fade" *ngIf="slide==item.id">
+    <img [src]="item.img" style="width:200%">
+    <div class="text">{{item.label}}</div>
+  </div>
+
+</div>
+<br>
+<div style="text-align:center" *ngIf="messageDot">
+  <span class="dot" *ngFor="let item of content">{{item.id}}</span>
+</div>
+
+

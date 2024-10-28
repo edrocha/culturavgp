@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  top:5%;
+  margin:auto;
+  left:70%;
+}
+.logo{
+  text-align: center;
+}
